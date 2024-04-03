@@ -1,13 +1,12 @@
 import java.util.*;
 public class Kth_Element {
     public static int name(int arr[], int k) {
+       
         Arrays.sort(arr);
 
         if(k==0){
             return arr[0];
-        }else{
-
-        
+        }else{   
         return arr[0+k-1];
         }
     }
